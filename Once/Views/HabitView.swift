@@ -9,10 +9,6 @@ import SwiftUI
 import SwiftData
 
 struct HabitView: View {
-    @Environment(\.modelContext) private var modelContext
-    @Query private var habits: [Habit]
-    @EnvironmentObject var habitsViewModel: HabitsViewModel
-    
     @State var selectedDay: Date = .now
     @State var selectedPage: Int = 3
     @State var showNewHabitSheet: Bool = false
@@ -22,26 +18,7 @@ struct HabitView: View {
         ZStack {
             Color.background.ignoresSafeArea()
             VStack {
-                HStack(spacing: 24) {
-                    Text("Habitude")
-                        .font(.custom("Inter-Bold", size: 42))
-                        .foregroundStyle(.text)
-                    Spacer()
-                    Button(action: {}, label: {
-                        Image(systemName: "calendar")
-                            .resizable()
-                            .frame(width: 26, height: 26)
-                    })
-                    Button(action: {
-                        self.showNewHabitSheet.toggle()
-                    }, label: {
-                        Image(systemName: "plus")
-                            .resizable()
-                            .frame(width: 26, height: 26)
-                    })
-                }
-                .padding(.bottom, 32)
-                .padding(.horizontal, 24)
+                HeaderView(title: "Habitude", buttonSystemName: "plus", action: {self.showNewHabitSheet.toggle()})
                 
                 DayPanelView(selectedDay: $selectedDay, days: self.days)
                     .padding(.bottom, 24)
@@ -58,8 +35,6 @@ struct HabitView: View {
                 }
                 .tabViewStyle(.page(indexDisplayMode: .never))
                 .frame(width: UIScreen.main.bounds.width)
-                
-                Spacer()
             }
             .padding(16)
             .sheet(isPresented: $showNewHabitSheet) {
@@ -73,7 +48,6 @@ struct HabitView: View {
             .onChange(of: self.selectedPage) {
                 self.selectedDay = days[self.selectedPage]
             }
-            .preferredColorScheme(.dark)
         }
     }
     
@@ -99,8 +73,6 @@ struct HabitView: View {
         return days.count
     }
 }
-
-
 
 
 

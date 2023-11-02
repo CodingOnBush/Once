@@ -49,9 +49,11 @@ struct NewHabitView: View {
                 }
                 
                 Button(action: {
-                    modelContext.insert(Habit(title: self.habitTitle, days: [.now]))
-                    self.useHaptic.toggle()
-                    presentationMode.wrappedValue.dismiss()
+                    if self.habitTitle.count > 2 {
+                        modelContext.insert(Habit(title: self.habitTitle, days: [.now]))
+                        self.useHaptic.toggle()
+                        presentationMode.wrappedValue.dismiss()
+                    }
                 }, label: {
                     Text("Create habit")
                         .font(.custom("Inter-Bold", size: 18))

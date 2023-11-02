@@ -11,6 +11,7 @@
 		54336D932AF2505A0091DD5A /* DayPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54336D922AF2505A0091DD5A /* DayPanelView.swift */; };
 		54336D952AF25B630091DD5A /* NewHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54336D942AF25B630091DD5A /* NewHabitView.swift */; };
 		5438EF6B2AE55F5900F8DA93 /* HabitsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438EF6A2AE55F5900F8DA93 /* HabitsListView.swift */; };
+		5455D4DB2AF3A78200B57EC0 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5455D4DA2AF3A78200B57EC0 /* HeaderView.swift */; };
 		54604CBC2ADE8C9B008983C4 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54604CBB2ADE8C9B008983C4 /* AlarmView.swift */; };
 		54604CBE2ADE8CA4008983C4 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54604CBD2ADE8CA4008983C4 /* HabitView.swift */; };
 		54604CC02ADE8CAD008983C4 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54604CBF2ADE8CAD008983C4 /* JournalView.swift */; };
@@ -43,6 +44,7 @@
 		54336D922AF2505A0091DD5A /* DayPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPanelView.swift; sourceTree = "<group>"; };
 		54336D942AF25B630091DD5A /* NewHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitView.swift; sourceTree = "<group>"; };
 		5438EF6A2AE55F5900F8DA93 /* HabitsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsListView.swift; sourceTree = "<group>"; };
+		5455D4DA2AF3A78200B57EC0 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		54604CBB2ADE8C9B008983C4 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
 		54604CBD2ADE8CA4008983C4 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
 		54604CBF2ADE8CAD008983C4 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			children = (
 				546250E12AE3CFDC005879CC /* HabitCell.swift */,
 				54336D922AF2505A0091DD5A /* DayPanelView.swift */,
+				5455D4DA2AF3A78200B57EC0 /* HeaderView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				5438EF6B2AE55F5900F8DA93 /* HabitsListView.swift in Sources */,
 				546250E22AE3CFDC005879CC /* HabitCell.swift in Sources */,
 				54E16E0C2ADDDB9400A8F7C0 /* MainView.swift in Sources */,
+				5455D4DB2AF3A78200B57EC0 /* HeaderView.swift in Sources */,
 				54336D952AF25B630091DD5A /* NewHabitView.swift in Sources */,
 				546250E42AE3D2D6005879CC /* TestView.swift in Sources */,
 				54604CC02ADE8CAD008983C4 /* JournalView.swift in Sources */,

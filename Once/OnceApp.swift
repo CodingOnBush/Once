@@ -13,6 +13,7 @@ struct OnceApp: App {
     var body: some Scene {
         WindowGroup {
             MainView()
+                .preferredColorScheme(.dark)
         }
         .modelContainer(for: Habit.self)	
     }

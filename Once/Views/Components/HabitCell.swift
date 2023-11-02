@@ -12,6 +12,7 @@ struct HabitCell: View {
     @State var habit: Habit
     var daySelected: Date
     @State var newCellSelected: Bool = false
+    @State var showAlert: Bool = false
     
     var body: some View {
         HStack {
@@ -41,7 +42,7 @@ struct HabitCell: View {
         )
         .contextMenu(ContextMenu(menuItems: {
             Button(action: {
-                modelContext.delete(habit)
+                self.showAlert.toggle()
             }, label: {
                 Label("Remove habits", systemImage: "trash")
             })
@@ -50,6 +51,16 @@ struct HabitCell: View {
             toggleCell()
         }
         .sensoryFeedback(.success, trigger: newCellSelected)
+        .alert(isPresented: $showAlert, content: {
+            Alert(
+                title: Text("Delete \(self.habit.title)"),
+                message: Text("Are you sure to delete this habit with all of your tracks ?"),
+                primaryButton: .destructive(Text("Delete"), action: {
+                    modelContext.delete(habit)
+                }),
+                secondaryButton: .cancel()
+            )
+        })
     }
     
     func removeDay(day: Date) {
