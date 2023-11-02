@@ -35,8 +35,9 @@ struct HabitView: View {
                 }
                 .tabViewStyle(.page(indexDisplayMode: .never))
                 .frame(width: UIScreen.main.bounds.width)
+                
+                Spacer()
             }
-            .padding(16)
             .sheet(isPresented: $showNewHabitSheet) {
                 NewHabitView()
             }

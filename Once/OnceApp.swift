@@ -15,6 +15,7 @@ struct OnceApp: App {
             MainView()
                 .preferredColorScheme(.dark)
         }
-        .modelContainer(for: Habit.self)	
+        .modelContainer(for: Habit.self)
+//        .modelContainer(for: Journal.self)
     }
 }
