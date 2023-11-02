@@ -7,20 +7,69 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5428CB1F2ADEA7CB00DA601B /* HabitCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5428CB1E2ADEA7CB00DA601B /* HabitCellViewModel.swift */; };
+		54336D932AF2505A0091DD5A /* DayPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54336D922AF2505A0091DD5A /* DayPanelView.swift */; };
+		54336D952AF25B630091DD5A /* NewHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54336D942AF25B630091DD5A /* NewHabitView.swift */; };
+		5438EF6B2AE55F5900F8DA93 /* HabitsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5438EF6A2AE55F5900F8DA93 /* HabitsListView.swift */; };
+		54604CBC2ADE8C9B008983C4 /* AlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54604CBB2ADE8C9B008983C4 /* AlarmView.swift */; };
+		54604CBE2ADE8CA4008983C4 /* HabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54604CBD2ADE8CA4008983C4 /* HabitView.swift */; };
+		54604CC02ADE8CAD008983C4 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54604CBF2ADE8CAD008983C4 /* JournalView.swift */; };
+		54604CCB2ADE95F9008983C4 /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54604CC22ADE95F9008983C4 /* Inter-Medium.ttf */; };
+		54604CCC2ADE95F9008983C4 /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54604CC32ADE95F9008983C4 /* Inter-ExtraLight.ttf */; };
+		54604CCD2ADE95F9008983C4 /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54604CC42ADE95F9008983C4 /* Inter-Regular.ttf */; };
+		54604CCE2ADE95F9008983C4 /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54604CC52ADE95F9008983C4 /* Inter-Bold.ttf */; };
+		54604CCF2ADE95F9008983C4 /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54604CC62ADE95F9008983C4 /* Inter-Thin.ttf */; };
+		54604CD02ADE95F9008983C4 /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54604CC72ADE95F9008983C4 /* Inter-Black.ttf */; };
+		54604CD12ADE95F9008983C4 /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54604CC82ADE95F9008983C4 /* Inter-SemiBold.ttf */; };
+		54604CD22ADE95F9008983C4 /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54604CC92ADE95F9008983C4 /* Inter-Light.ttf */; };
+		54604CD32ADE95F9008983C4 /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 54604CCA2ADE95F9008983C4 /* Inter-ExtraBold.ttf */; };
+		546250D92AE1791A005879CC /* SizePreferenceKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546250D82AE1791A005879CC /* SizePreferenceKey.swift */; };
+		546250DD2AE2D929005879CC /* DayCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546250DC2AE2D929005879CC /* DayCellView.swift */; };
+		546250DF2AE3CCE9005879CC /* Habit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546250DE2AE3CCE9005879CC /* Habit.swift */; };
+		546250E22AE3CFDC005879CC /* HabitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546250E12AE3CFDC005879CC /* HabitCell.swift */; };
+		546250E42AE3D2D6005879CC /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546250E32AE3D2D6005879CC /* TestView.swift */; };
+		546250EC2AE3F24F005879CC /* HabitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546250EB2AE3F24F005879CC /* HabitsViewModel.swift */; };
 		54E16DFC2ADDD60300A8F7C0 /* OnceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E16DFB2ADDD60300A8F7C0 /* OnceApp.swift */; };
 		54E16DFE2ADDD60300A8F7C0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E16DFD2ADDD60300A8F7C0 /* ContentView.swift */; };
 		54E16E002ADDD60300A8F7C0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E16DFF2ADDD60300A8F7C0 /* Item.swift */; };
 		54E16E022ADDD60400A8F7C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E16E012ADDD60400A8F7C0 /* Assets.xcassets */; };
 		54E16E052ADDD60400A8F7C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54E16E042ADDD60400A8F7C0 /* Preview Assets.xcassets */; };
+		54E16E0C2ADDDB9400A8F7C0 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E16E0B2ADDDB9400A8F7C0 /* MainView.swift */; };
+		54E16E0E2ADDDC8C00A8F7C0 /* TabComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E16E0D2ADDDC8C00A8F7C0 /* TabComponent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5428CB1E2ADEA7CB00DA601B /* HabitCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCellViewModel.swift; sourceTree = "<group>"; };
+		54336D922AF2505A0091DD5A /* DayPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPanelView.swift; sourceTree = "<group>"; };
+		54336D942AF25B630091DD5A /* NewHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHabitView.swift; sourceTree = "<group>"; };
+		5438EF6A2AE55F5900F8DA93 /* HabitsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsListView.swift; sourceTree = "<group>"; };
+		54604CBB2ADE8C9B008983C4 /* AlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmView.swift; sourceTree = "<group>"; };
+		54604CBD2ADE8CA4008983C4 /* HabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitView.swift; sourceTree = "<group>"; };
+		54604CBF2ADE8CAD008983C4 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		54604CC22ADE95F9008983C4 /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		54604CC32ADE95F9008983C4 /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		54604CC42ADE95F9008983C4 /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		54604CC52ADE95F9008983C4 /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		54604CC62ADE95F9008983C4 /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		54604CC72ADE95F9008983C4 /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		54604CC82ADE95F9008983C4 /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		54604CC92ADE95F9008983C4 /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		54604CCA2ADE95F9008983C4 /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		54604CD42ADE96ED008983C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		546250D82AE1791A005879CC /* SizePreferenceKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferenceKey.swift; sourceTree = "<group>"; };
+		546250DC2AE2D929005879CC /* DayCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCellView.swift; sourceTree = "<group>"; };
+		546250DE2AE3CCE9005879CC /* Habit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Habit.swift; sourceTree = "<group>"; };
+		546250E12AE3CFDC005879CC /* HabitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCell.swift; sourceTree = "<group>"; };
+		546250E32AE3D2D6005879CC /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		546250EB2AE3F24F005879CC /* HabitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsViewModel.swift; sourceTree = "<group>"; };
 		54E16DF82ADDD60300A8F7C0 /* Once.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Once.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E16DFB2ADDD60300A8F7C0 /* OnceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnceApp.swift; sourceTree = "<group>"; };
 		54E16DFD2ADDD60300A8F7C0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		54E16DFF2ADDD60300A8F7C0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		54E16E012ADDD60400A8F7C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54E16E042ADDD60400A8F7C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		54E16E0B2ADDDB9400A8F7C0 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		54E16E0D2ADDDC8C00A8F7C0 /* TabComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabComponent.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +83,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54604CB82ADE7D1B008983C4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				5428CB1E2ADEA7CB00DA601B /* HabitCellViewModel.swift */,
+				546250EB2AE3F24F005879CC /* HabitsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		54604CB92ADE7D26008983C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				546250DE2AE3CCE9005879CC /* Habit.swift */,
+				546250D82AE1791A005879CC /* SizePreferenceKey.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		54604CBA2ADE7D2C008983C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				54E16E0B2ADDDB9400A8F7C0 /* MainView.swift */,
+				54604CBB2ADE8C9B008983C4 /* AlarmView.swift */,
+				54604CBD2ADE8CA4008983C4 /* HabitView.swift */,
+				54604CBF2ADE8CAD008983C4 /* JournalView.swift */,
+				546250E32AE3D2D6005879CC /* TestView.swift */,
+				5438EF6A2AE55F5900F8DA93 /* HabitsListView.swift */,
+				546250DC2AE2D929005879CC /* DayCellView.swift */,
+				54336D942AF25B630091DD5A /* NewHabitView.swift */,
+				546250E02AE3CEB6005879CC /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		54604CC12ADE95EC008983C4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				54604CC72ADE95F9008983C4 /* Inter-Black.ttf */,
+				54604CC52ADE95F9008983C4 /* Inter-Bold.ttf */,
+				54604CCA2ADE95F9008983C4 /* Inter-ExtraBold.ttf */,
+				54604CC32ADE95F9008983C4 /* Inter-ExtraLight.ttf */,
+				54604CC92ADE95F9008983C4 /* Inter-Light.ttf */,
+				54604CC22ADE95F9008983C4 /* Inter-Medium.ttf */,
+				54604CC42ADE95F9008983C4 /* Inter-Regular.ttf */,
+				54604CC82ADE95F9008983C4 /* Inter-SemiBold.ttf */,
+				54604CC62ADE95F9008983C4 /* Inter-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		546250E02AE3CEB6005879CC /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				546250E12AE3CFDC005879CC /* HabitCell.swift */,
+				54336D922AF2505A0091DD5A /* DayPanelView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		54E16DEF2ADDD60300A8F7C0 = {
 			isa = PBXGroup;
 			children = (
@@ -54,10 +162,16 @@
 			isa = PBXGroup;
 			children = (
 				54E16DFB2ADDD60300A8F7C0 /* OnceApp.swift */,
+				54604CB92ADE7D26008983C4 /* Models */,
+				54604CBA2ADE7D2C008983C4 /* Views */,
+				54604CB82ADE7D1B008983C4 /* ViewModels */,
 				54E16DFD2ADDD60300A8F7C0 /* ContentView.swift */,
+				54E16E0D2ADDDC8C00A8F7C0 /* TabComponent.swift */,
 				54E16DFF2ADDD60300A8F7C0 /* Item.swift */,
 				54E16E012ADDD60400A8F7C0 /* Assets.xcassets */,
+				54604CC12ADE95EC008983C4 /* Fonts */,
 				54E16E032ADDD60400A8F7C0 /* Preview Content */,
+				54604CD42ADE96ED008983C4 /* Info.plist */,
 			);
 			path = Once;
 			sourceTree = "<group>";
@@ -128,8 +242,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54604CD22ADE95F9008983C4 /* Inter-Light.ttf in Resources */,
+				54604CD32ADE95F9008983C4 /* Inter-ExtraBold.ttf in Resources */,
+				54604CCE2ADE95F9008983C4 /* Inter-Bold.ttf in Resources */,
 				54E16E052ADDD60400A8F7C0 /* Preview Assets.xcassets in Resources */,
+				54604CCD2ADE95F9008983C4 /* Inter-Regular.ttf in Resources */,
+				54604CD12ADE95F9008983C4 /* Inter-SemiBold.ttf in Resources */,
 				54E16E022ADDD60400A8F7C0 /* Assets.xcassets in Resources */,
+				54604CCB2ADE95F9008983C4 /* Inter-Medium.ttf in Resources */,
+				54604CCC2ADE95F9008983C4 /* Inter-ExtraLight.ttf in Resources */,
+				54604CCF2ADE95F9008983C4 /* Inter-Thin.ttf in Resources */,
+				54604CD02ADE95F9008983C4 /* Inter-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +263,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54336D932AF2505A0091DD5A /* DayPanelView.swift in Sources */,
+				546250DF2AE3CCE9005879CC /* Habit.swift in Sources */,
 				54E16DFE2ADDD60300A8F7C0 /* ContentView.swift in Sources */,
+				5438EF6B2AE55F5900F8DA93 /* HabitsListView.swift in Sources */,
+				546250E22AE3CFDC005879CC /* HabitCell.swift in Sources */,
+				54E16E0C2ADDDB9400A8F7C0 /* MainView.swift in Sources */,
+				54336D952AF25B630091DD5A /* NewHabitView.swift in Sources */,
+				546250E42AE3D2D6005879CC /* TestView.swift in Sources */,
+				54604CC02ADE8CAD008983C4 /* JournalView.swift in Sources */,
+				546250EC2AE3F24F005879CC /* HabitsViewModel.swift in Sources */,
+				546250DD2AE2D929005879CC /* DayCellView.swift in Sources */,
 				54E16E002ADDD60300A8F7C0 /* Item.swift in Sources */,
 				54E16DFC2ADDD60300A8F7C0 /* OnceApp.swift in Sources */,
+				54604CBE2ADE8CA4008983C4 /* HabitView.swift in Sources */,
+				54604CBC2ADE8C9B008983C4 /* AlarmView.swift in Sources */,
+				54E16E0E2ADDDC8C00A8F7C0 /* TabComponent.swift in Sources */,
+				5428CB1F2ADEA7CB00DA601B /* HabitCellViewModel.swift in Sources */,
+				546250D92AE1791A005879CC /* SizePreferenceKey.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,11 +417,13 @@
 				DEVELOPMENT_TEAM = 9XE2PQRA7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Once/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Once;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,9 +431,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vegapunk.Once;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,11 +451,13 @@
 				DEVELOPMENT_TEAM = 9XE2PQRA7K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Once/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Once;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,9 +465,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.vegapunk.Once;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
