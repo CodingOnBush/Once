@@ -73,6 +73,7 @@ struct HabitView: View {
             .onChange(of: self.selectedPage) {
                 self.selectedDay = days[self.selectedPage]
             }
+            .preferredColorScheme(.dark)
         }
     }
     
